@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textSize="49sp"
+    android:text="SwapperChecker" />
+
+
+-<LinearLayout
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/first_string_edit_text"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Swap"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_swap"
+        android:onClick="onSwap"/>
+    </LinearLayout>
+
+
+-<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/second_string_edit_text"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Check"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_check"
+        android:onClick="onCheck"/>
+
+</LinearLayout>
+
+</LinearLayout>
